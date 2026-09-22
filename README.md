@@ -1,8 +1,8 @@
 # pvc-git-commit-message-local
 
-<p align="center"><img src="assets/pvc-git-commit-message-local.jpg" width="360" alt="pvc-git-commit-message-local"></p>
+<p align="center"><img src="assets/pvc-git-commit-message-local-banner.jpg" alt="pvc-git-commit-message-local"></p>
 
-![version](https://img.shields.io/badge/version-v0.4.0-blue) ![type](https://img.shields.io/badge/Claude%20Code-skill-7C5CFF) ![license](https://img.shields.io/badge/license-Apache%202.0-green)
+![version](https://img.shields.io/badge/version-v0.4.1-blue) ![type](https://img.shields.io/badge/Claude%20Code-skill-7C5CFF) ![license](https://img.shields.io/badge/license-Apache%202.0-green)
 
 > Writes a git commit message in PVC format from `git status` and `git diff`, then runs the commit locally. Never pushes.
 
@@ -172,6 +172,7 @@ Grounded in:
 
 ## Changelog
 
+- **v0.4.1 (2026-09-22).** README shows the cream banner `assets/pvc-git-commit-message-local-banner.jpg` full width under the title, the card art on a sheet in its own paper color with the PVC five-bar mark bottom right; the social preview matches it with the mark bottom left. Docs only, no change to what the skill does.
 - **v0.4.0 (2026-09-17).** First public release under Apache 2.0. Added the Apache License 2.0, a NOTICE file, an SPDX header in SKILL.md, a public TRADEMARK.md, REQUIREMENTS.md and the README artwork under `assets/`. Format rule 8 (no attribution trailers) added 2026-09-16. README rewritten for a public reader.
 - **v0.3.0-local (2026-07-15).** First packaged release of the local-executing variant: single-dash bullets, Title Case headlines, the blank line between headline and body, and local commit execution on named paths.
 

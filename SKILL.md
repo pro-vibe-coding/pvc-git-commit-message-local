@@ -3,7 +3,7 @@ name: pvc-git-commit-message-local
 description: Writes a git commit message in PVC format. First line is `vX.Y.Z - headline`, then `- one change per line` bullets. Bumps the semantic version from the most recent commit based on diff scope (PATCH for fixes, MINOR for new functionality, MAJOR for breaking changes). Reads `git status`, `git diff`, and `git log` so bullets describe real changes not hallucinated ones. In this variant Claude also EXECUTES the commit LOCALLY in the host project (see the Local Execution Steps); never pushes, never adds remotes. Use when asked to "commit this", "write a commit message", "make a commit", "git commit", "commit the session", or on situational phrasings like "wrap this up", "save my changes", "message for these changes", "what should I commit this as".
 metadata:
   author: pvc
-  version: "0.4.0"
+  version: "0.4.1"
   adapted-from: the print-only variant of this skill, reconciled for local execution (2026-07-15); public packaging added 2026-09-17
   sources: [semver-2.0.0, conventional-commits-1.0.0, tim-pope-git-commit-style, keep-a-changelog-1.1.0, pvc-voice-rules]
 license: Apache-2.0
